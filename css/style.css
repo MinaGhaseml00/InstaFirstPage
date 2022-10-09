@@ -165,4 +165,21 @@ body{
 .sign-up p a{
     color: #0095f6;
     font-weight: 600;
+    cursor: pointer;
+}
+
+.app-links{
+    text-align: center;
+}
+
+.app-links p{
+    margin:20px;
+}
+
+.app-links a img {
+    height: 40px;
+}
+
+.appstore{
+    margin-right:8px;
 }
