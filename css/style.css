@@ -11,3 +11,15 @@ body{
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     background-color: #FAFAFA;  
 }
+.main>*{
+
+    float:left;
+}
+
+.main::before,
+.main::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
