@@ -22,4 +22,18 @@ body{
     display: block;
     clear: both;
 }
+.main {
+    width:70%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
 
+.leftside{
+    width:calc(50%-32px);
+    margin-right:30px;
+}
+
+.rightside{
+    width:50%;
+}
