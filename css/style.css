@@ -90,7 +90,7 @@ body{
     margin:8px 0;
 }
 .or-section{
-    margin: 10px 0px 18px; 
+    margin: 10px 40px 18px; 
 }
 .or-section>* { 
     float:left;
@@ -118,4 +118,21 @@ body{
     line-height: 15px;
     color: #8e8e8e;
     width:calc(30% - 36px);
+}
+
+.facebook-link{
+    color:#385185;
+}
+
+.facebook-link a{
+    color: #385185;
+    font-weight: 600;
+    font-size:14px;
+}
+
+.facebook-link i {
+    margin-right:8px;
+    position: relative;
+    top: 3px;
+    font-size: 20px;
 }
