@@ -49,6 +49,7 @@ body{
     color: rgb(38,38,38);
     background-color: #fff;
     border-radius: 1px;
+    margin-top: 20px;
 }
 .login-header {
     margin-top:36px;
@@ -135,4 +136,11 @@ body{
     position: relative;
     top: 3px;
     font-size: 20px;
+}
+
+.forgot-password {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 12px;
+    margin-bottom: 20px;
 }
