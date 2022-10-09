@@ -71,6 +71,11 @@ body{
 
 }
 
+::placeholder{
+    font-size:12px;
+    color: #8E8E8E;
+}
+
 .login-main button{
     width:100%;
     margin-bottom: 6px;
@@ -82,4 +87,34 @@ body{
     padding: 5px 8px;
     color: #fff;
     margin:8px 0;
+}
+.or-section{
+    margin: 10px 0px 18px; 
+}
+.or-section>* { 
+    float:left;
+}
+
+.or-section::before,
+.or-section::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.line {
+    height:1px;
+    background-color: #dbdbdb;
+    position:relative;
+    top:0.45em;
+    width:35%;
+}
+
+.or {
+    margin:0 18px;
+    font-size:13px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #8e8e8e;
+    width:calc(30% - 36px);
 }
