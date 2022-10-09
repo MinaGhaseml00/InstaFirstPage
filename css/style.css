@@ -144,3 +144,25 @@ body{
     margin-top: 12px;
     margin-bottom: 20px;
 }
+
+
+.sign-up {
+    border: 1px solid #dbdbdb;
+    color: rgb(38,38,38);
+    background-color: #fff;
+    border-radius: 1px;
+    margin: 10px 0;
+    padding:10px 0;
+}
+
+.sign-up p{
+    margin: 15px;
+    font-size: 14px;
+    display: inline-block;
+    
+}
+
+.sign-up p a{
+    color: #0095f6;
+    font-weight: 600;
+}
