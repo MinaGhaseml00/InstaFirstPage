@@ -26,6 +26,7 @@ body{
     width:70%;
     text-align: center;
     margin: 0 auto;
+    padding:50px 0;
     
 }
 
@@ -36,4 +37,14 @@ body{
 
 .rightside{
     width:50%;
+}
+
+.login {
+    border: 1px solid #dbdbdb;
+    color: rgb(38,38,38);
+    background-color: #fff;
+}
+.login-header {
+    margin-top:36px;
+    margin-bottom: 12px;
 }
