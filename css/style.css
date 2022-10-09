@@ -183,3 +183,65 @@ body{
 .appstore{
     margin-right:8px;
 }
+
+.footer ul{
+    list-style-type: none;
+    text-align: center;
+    margin:0 auto;
+    padding: 0;
+   
+}
+
+
+
+
+.footer {
+    padding:0 16px;
+    margin-bottom: 52px;
+}
+
+.footer ul li a {
+    font-weight: 400;
+    font-size:12px;
+    line-height: 16px;
+    color:#8e8e8e;   
+}
+
+.footer ul li {
+    margin:0 8px 12px 8px; 
+   display: inline;
+}
+
+.footer-footer{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.footer-footer>*{
+    display: inline;
+    font-weight: 400;
+    font-size:12px;
+    line-height: 16px;
+    color:#8e8e8e;
+}
+
+.footer-footer span>*{
+    display: inline;
+    font-weight: 400;
+    font-size:12px;
+    line-height: 16px;
+    color:#8e8e8e;
+}
+
+.footer-footer select{
+    border: none;
+    width:auto;
+    background-color: #FAFAFA;
+    opacity:0;
+    position:absolute;
+    width:50px;    
+    cursor: pointer;
+}
+.copy-right{
+    margin-left:16px;
+}
