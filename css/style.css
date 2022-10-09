@@ -1,3 +1,15 @@
+@media screen and (max-width:750px){
+    .leftside{
+        display:none;
+    }
+
+    .rightside{
+        width:100% !important;
+        max-width:350px;
+        text-align: center;  
+    }
+}
+
 *{
     margin: 0;
 }
@@ -28,8 +40,7 @@ body{
 .container {
     margin: 0 auto;
     padding:50px 0;
-    display: inline-block;
-    
+    display: inline-block; 
 }
 
 .leftside{
@@ -89,7 +100,9 @@ body{
     padding: 5px 8px;
     color: #fff;
     margin:8px 0;
+    cursor: pointer;
 }
+
 .or-section{
     margin: 10px 40px 18px; 
 }
@@ -191,9 +204,6 @@ body{
     padding: 0;
    
 }
-
-
-
 
 .footer {
     padding:0 16px;
